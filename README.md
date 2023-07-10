@@ -1,8 +1,16 @@
-Longest Palindrome
+Codewars Tasks
 
+LEVEL 6.
+Task #1: Longest Palindrome
+CODEWARS TASK LINK.
 
+Description.
 Find the length of the longest substring in the given string s that is the same in reverse.
-
 As an example, if the input was “I like racecars that go fast”, the substring (racecar) length would be 7.
-
 If the length of the input string is 0, the return value must be 0.
+
+
+
+Task #2: Name
+CODEWARS TASK LINK.
+Description.
