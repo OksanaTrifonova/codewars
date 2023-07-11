@@ -7,6 +7,7 @@ Description. Find the length of the longest substring in the given string s that
 Task #2: Find The Parity Outlier  - https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/java
 
 Description. You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. Write a method that takes the array as an argument and returns this "outlier" N.
+
 Task #3: Perimeter of Fibonacci Rectangle - https://www.codewars.com/kata/59c35ba16bddd219ee000082/train/java
 
 Description. The drawing shows 6 squares the sides of which have a length of 1, 1, 2, 3, 5, 8. The perimeter of the overall rectangle is 42. 
