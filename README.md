@@ -27,3 +27,15 @@ Examples (input -> output)
 * [1,1,1] -> 1, because after you pick on day one, there will be only one chip left
 * [1,2,1] -> 2, you can pick twice; you pick two chips on day one then on day two
 * [4,1,1] -> 2
+
+Task #5: Who likes it? - https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/java
+
+Description. We want to create the text that should be displayed next to such an item.
+
+Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
+
+[]                                -->  "no one likes this"
+["Peter"]                         -->  "Peter likes this"
+["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
+["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
+["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this
