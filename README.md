@@ -39,3 +39,11 @@ Implement the function which takes an array containing the names of people that 
 ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
 ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this
+
+LEVEL 5. Task #1: Longest Palindrome -https://www.codewars.com/kata/576b072359b1161a7b000a17/train/java
+
+Description. Create a function that returns an array containing the first l numbers from the nth diagonal of Pascal's triangle.
+n = 0 should generate the first diagonal of the triangle (the ones).
+The first number in each diagonal should be 1.
+If l = 0, return an empty array.
+Both n and l will be non-negative integers in all test cases.
