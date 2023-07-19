@@ -1,6 +1,35 @@
 
 Codewars Tasks
+LEVEL 8. Task #1: Welcome! - hhttps://www.codewars.com/kata/577ff15ad648a14b780000e7/train/java
+Description.
+Your start-up's BA has told marketing that your website has a large audience in Scandinavia and surrounding countries. Marketing thinks it would be great to welcome visitors to the site in their own language. Luckily you already use an API that detects the user's location, so this is an easy win.
 
+The Task
+Think of a way to store the languages as a database (eg an object). The languages are listed below so you can copy and paste!
+Write a 'welcome' function that takes a parameter 'language' (always a string), and returns a greeting - if you have it in your database. It should default to English if the language is not in the database, or in the event of an invalid input.
+The Database
+english: "Welcome",
+czech: "Vitejte",
+danish: "Velkomst",
+dutch: "Welkom",
+estonian: "Tere tulemast",
+finnish: "Tervetuloa",
+flemish: "Welgekomen",
+french: "Bienvenue",
+german: "Willkommen",
+irish: "Failte",
+italian: "Benvenuto",
+latvian: "Gaidits",
+lithuanian: "Laukiamas",
+polish: "Witamy",
+spanish: "Bienvenido",
+swedish: "Valkommen",
+welsh: "Croeso"
+Possible invalid inputs include:
+
+IP_ADDRESS_INVALID - not a valid ipv4 or ipv6 ip address
+IP_ADDRESS_NOT_FOUND - ip address not in the database
+IP_ADDRESS_REQUIRED - no ip address was supplied
 LEVEL 6. Task #1: Longest Palindrome - https://www.codewars.com/kata/54bb6f887e5a80180900046b/train/java
 
 Description. Find the length of the longest substring in the given string s that is the same in reverse. As an example, if the input was “I like racecars that go fast”, the substring (racecar) length would be 7. If the length of the input string is 0, the return value must be 0.
@@ -14,7 +43,7 @@ Task #3: Perimeter of Fibonacci Rectangle - https://www.codewars.com/kata/59c35b
 Description. The drawing shows 6 squares the sides of which have a length of 1, 1, 2, 3, 5, 8. The perimeter of the overall rectangle is 42. Give the perimeter of a rectangle when there are n + 1 squares disposed. The function perimeter has the parameter n where n + 1 is the number of squares (they are numbered from 0 to n), and returns the perimeter of the overall rectangle (not of its component squares).
 
 Task #4: Casino chips - https://www.codewars.com/kata/5e0b72d2d772160011133654/train/java
-
+Description.
 You are given three piles of casino chips: white, green and black chips:
 the first pile contains only white chips
 the second pile contains only green chips
